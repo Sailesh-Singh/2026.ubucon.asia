@@ -3,6 +3,9 @@ import Navigation from "./Navigation.astro";
 import { getHeroCtas, getSiteMetadata } from "../config/site";
 import { getLocalizedPath, useTranslations } from "../i18n/ui";
 import HeroImage from "../assets/uca25photo.png";
+import BoothImage from "../assets/booth.jpg";
+import PrimesessionImage from "../assets/primesession.jpg";
+import SpeakerImage from "../assets/speaker.jpg";
 const { locale } = Astro.props;
 const t = useTranslations(locale) as (key: string) => string;
 const metadata = getSiteMetadata(locale);
@@ -59,4 +62,134 @@ const heroCtas = getHeroCtas(locale);
             </div>
         </div>
     </section>
+    <div class="p-section p-strip is-dark" id="3-columns-responsive">
+        <hr class="p-rule is-fixed-width" />
+        <div class="p-section--shallow">
+            <div class="grid-row--50-50-on-large">
+                <div class="grid-col">
+                    <h2>Contribute</h2>
+                </div>
+                <div class="grid-col">
+                    <p class="p-heading--5">
+                        UbuCon Asia is driven by people from the Ubuntu
+                        Community - just like you! Contribute to UbuCon Asia
+                        2026 in the way you want today. Let's make the gathering
+                        shine together!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-row">
+            <div class="grid-col-6 grid-col-start-large-3">
+                <div class="p-equal-height-row--wrap">
+                    <div class="p-equal-height-row__col is-borderless">
+                        <div class="p-equal-height-row__item">
+                            <div
+                                class="p-image-container p-image-container--square-on-small p-image-container--square-on-medium p-image-container--2-3-on-large is-cover"
+                            >
+                                <img
+                                    src={SpeakerImage.src}
+                                    class="p-image-container__image"
+                                    width="284"
+                                    height="426"
+                                    alt="Kernelt"
+                                />
+                            </div>
+                            <hr class="p-rule--highlight" />
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p class="p-heading--5">Become a speaker</p>
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p>
+                                Do you have any interesting insights around
+                                Ubuntu you would like to share? Submit a
+                                proposal today!
+                            </p>
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p>
+                                <a href="/cfp">Call for proposals&nbsp;›</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-equal-height-row__col is-borderless">
+                        <div class="p-equal-height-row__item">
+                            <div
+                                class="p-image-container p-image-container--square-on-small p-image-container--square-on-medium p-image-container--2-3-on-large is-cover"
+                            >
+                                <img
+                                    src={PrimesessionImage.src}
+                                    class="p-image-container__image"
+                                    width="284"
+                                    height="426"
+                                    alt="Kernelt"
+                                />
+                            </div>
+                            <hr class="p-rule--highlight" />
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p class="p-heading--5">
+                                Nominate a prime session speaker
+                            </p>
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p>
+                                Who would you like to see as a prime session
+                                speaker - who would inspire the both Ubuntu
+                                Community and the entire COSCUP audience.
+                                Nominate a person as a prime session speaker
+                                today!
+                            </p>
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p>
+                                <a
+                                    href="https://discourse.ubuntu.com/t/call-for-nominations-ubucon-asia-2026-coscup-prime-session-speaker/78309"
+                                    >Nominate&nbsp;›</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-equal-height-row__col is-borderless">
+                        <div class="p-equal-height-row__item">
+                            <div
+                                class="p-image-container p-image-container--square-on-small p-image-container--square-on-medium p-image-container--2-3-on-large is-cover"
+                            >
+                                <img
+                                    src={BoothImage.src}
+                                    class="p-image-container__image"
+                                    width="284"
+                                    height="426"
+                                    alt="Kernelt"
+                                />
+                            </div>
+                            <hr class="p-rule--highlight" />
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p class="p-heading--5">Ubuntu Community Booth</p>
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p>
+                                Would you like to help with spreading out the
+                                Ubuntu and Ubuntu community to new people face
+                                to face? Do you have any projects built with or
+                                for Ubuntu you would like to showcase? Consider
+                                volunteering at booth!
+                            </p>
+                        </div>
+                        <div class="p-equal-height-row__item">
+                            <p>
+                                <a
+                                    href="https://discourse.ubuntu.com/t/call-for-booth-volunteers-ubucon-asia-2026-coscup/78729"
+                                    >Call for Booth Volunteers&nbsp;›</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
