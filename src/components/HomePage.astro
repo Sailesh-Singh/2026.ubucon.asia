@@ -67,14 +67,11 @@ const heroCtas = getHeroCtas(locale);
         <div class="p-section--shallow">
             <div class="grid-row--50-50-on-large">
                 <div class="grid-col">
-                    <h2>Contribute</h2>
+                    <h2>{t("contributeTitle")}</h2>
                 </div>
                 <div class="grid-col">
                     <p class="p-heading--5">
-                        UbuCon Asia is driven by people from the Ubuntu
-                        Community - just like you! Contribute to UbuCon Asia
-                        2026 in the way you want today. Let's make the gathering
-                        shine together!
+                        {t("contributeDescription")}
                     </p>
                 </div>
             </div>
@@ -99,18 +96,18 @@ const heroCtas = getHeroCtas(locale);
                             <hr class="p-rule--highlight" />
                         </div>
                         <div class="p-equal-height-row__item">
-                            <p class="p-heading--5">Become a speaker</p>
-                        </div>
-                        <div class="p-equal-height-row__item">
-                            <p>
-                                Do you have any interesting insights around
-                                Ubuntu you would like to share? Submit a
-                                proposal today!
+                            <p class="p-heading--5">
+                                {t("contributeSpeakerTitle")}
                             </p>
                         </div>
                         <div class="p-equal-height-row__item">
+                            <p>{t("contributeSpeakerDescription")}</p>
+                        </div>
+                        <div class="p-equal-height-row__item">
                             <p>
-                                <a href="/cfp">Call for proposals&nbsp;›</a>
+                                <a href="/cfp"
+                                    >{t("contributeSpeakerLinkLabel")}&nbsp;›</a
+                                >
                             </p>
                         </div>
                     </div>
@@ -131,23 +128,17 @@ const heroCtas = getHeroCtas(locale);
                         </div>
                         <div class="p-equal-height-row__item">
                             <p class="p-heading--5">
-                                Nominate a prime session speaker
+                                {t("contributePrimeTitle")}
                             </p>
                         </div>
                         <div class="p-equal-height-row__item">
-                            <p>
-                                Who would you like to see as a prime session
-                                speaker - who would inspire the both Ubuntu
-                                Community and the entire COSCUP audience.
-                                Nominate a person as a prime session speaker
-                                today!
-                            </p>
+                            <p>{t("contributePrimeDescription")}</p>
                         </div>
                         <div class="p-equal-height-row__item">
                             <p>
                                 <a
                                     href="https://discourse.ubuntu.com/t/call-for-nominations-ubucon-asia-2026-coscup-prime-session-speaker/78309"
-                                    >Nominate&nbsp;›</a
+                                    >{t("contributePrimeLinkLabel")}&nbsp;›</a
                                 >
                             </p>
                         </div>
@@ -168,22 +159,18 @@ const heroCtas = getHeroCtas(locale);
                             <hr class="p-rule--highlight" />
                         </div>
                         <div class="p-equal-height-row__item">
-                            <p class="p-heading--5">Ubuntu Community Booth</p>
+                            <p class="p-heading--5">
+                                {t("contributeBoothTitle")}
+                            </p>
                         </div>
                         <div class="p-equal-height-row__item">
-                            <p>
-                                Would you like to help with spreading out the
-                                Ubuntu and Ubuntu community to new people face
-                                to face? Do you have any projects built with or
-                                for Ubuntu you would like to showcase? Consider
-                                volunteering at booth!
-                            </p>
+                            <p>{t("contributeBoothDescription")}</p>
                         </div>
                         <div class="p-equal-height-row__item">
                             <p>
                                 <a
                                     href="https://discourse.ubuntu.com/t/call-for-booth-volunteers-ubucon-asia-2026-coscup/78729"
-                                    >Call for Booth Volunteers&nbsp;›</a
+                                    >{t("contributeBoothLinkLabel")}&nbsp;›</a
                                 >
                             </p>
                         </div>
