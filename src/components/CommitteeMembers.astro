@@ -1,0 +1,31 @@
+---
+import { committeeMembers } from "../data/committeeMembers";
+import TeamCard from "./TeamCard.astro";
+
+const teams = {
+  "Global Organizers": committeeMembers.filter((member) =>
+    member.team.includes("Global team")
+  ),
+  "Local Organizers": committeeMembers.filter((member) =>
+    member.team.includes("Local team")
+  ),
+};
+---
+
+{
+  Object.entries(teams).map(([teamName, members]) => (
+    <>
+      <h3>{teamName}</h3>
+      <div class="row">
+        {members.map((member) => (
+          <TeamCard
+            img={member.profileImageUrl}
+            name={member.name}
+            team={member.team}
+            role={member.role}
+          />
+        ))}
+      </div>
+    </>
+  ))
+}
