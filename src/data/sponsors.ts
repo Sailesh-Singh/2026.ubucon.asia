@@ -1,7 +1,7 @@
 import logoPlaceHolder from "../assets/sponsors/logo_placeholder.svg";
 export const sponsors = [
   {
-    sponsorLevelName: "Diamond",
+    sponsorLevelName: "Titanium",
     sizeOnLargeScreen: 6,
     sizeOnMediumScreen: 6,
     sizeOnSmallScreen: 6,
@@ -17,7 +17,7 @@ export const sponsors = [
     ],
   },
   {
-    sponsorLevelName: "Gold",
+    sponsorLevelName: "Diamond",
     sizeOnLargeScreen: 4,
     sizeOnMediumScreen: 4,
     sizeOnSmallScreen: 3,
@@ -33,7 +33,7 @@ export const sponsors = [
     ],
   },
   {
-    sponsorLevelName: "Silver",
+    sponsorLevelName: "Gold",
     sizeOnLargeScreen: 3,
     sizeOnMediumScreen: 3,
     sizeOnSmallScreen: 2,
@@ -50,7 +50,7 @@ export const sponsors = [
     ],
   },
   {
-    sponsorLevelName: "Bronze",
+    sponsorLevelName: "Silver",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
     sizeOnSmallScreen: 1,
@@ -66,13 +66,13 @@ export const sponsors = [
     ],
   },
 
-  // {
-  //   sponsorLevelName: "Supporter",
-  //   sizeOnLargeScreen: 2,
-  //   sizeOnMediumScreen: 2,
-  //   sizeOnSmallScreen: 1,
-  //   showPopup: true,
-  //   list: [
+  {
+    sponsorLevelName: "Bronze",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
   //     // {
   //     //   name: "Become a sponsor!",
   //     //   logoUrl: logoPlaceHolder.src,
@@ -80,8 +80,8 @@ export const sponsors = [
   //     //   description:
   //     //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
   //     // },
-  //   ],
-  // },
+    ],
+  },
   // {
   //   sponsorLevelName: "Startup",
   //   sizeOnLargeScreen: 2,
@@ -105,7 +105,7 @@ export const sponsors = [
   //   ],
   // },
   // {
-  //   sponsorLevelName: "Community Partners",
+  //   sponsorLevelName: "Supporter",
   //   sizeOnLargeScreen: 1,
   //   sizeOnMediumScreen: 1,
   //   sizeOnSmallScreen: 1,
