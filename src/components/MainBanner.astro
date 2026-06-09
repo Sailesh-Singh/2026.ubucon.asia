@@ -8,7 +8,7 @@ const metadata = getSiteMetadata(locale);
 const heroCtas = getHeroCtas(locale);
 ---
 
-<section class="p-suru--fan-bottom">
+<section class="p-suru--pyramid-right p-strip--dark hero-section">
   <div class="u-fixed-width">
     <div class="row--75-25">
       <div class="col">
@@ -38,6 +38,27 @@ const heroCtas = getHeroCtas(locale);
 </section>
 
 <style>
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Dark overlay on top of the Suru background */
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+  background:
+    radial-gradient(circle at top left, rgba(233,84,32,0.15), transparent 40%),
+    rgba(0,0,0,0.84);
+    z-index: 1;
+  }
+
+  /* Keep content above the overlay */
+  .hero-section > * {
+    position: relative;
+    z-index: 2;
+  }
   .hero-logo {
     display: block;
     max-width: 100%;
