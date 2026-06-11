@@ -25,6 +25,10 @@ export const navigation: NavigationSettings = {
       key: "navAbout",
       items: [
         {
+          key: "navAboutTheEvent",
+          path: "/about",
+        },
+        {
           key: "navCoC",
           path: "/code-of-conduct",
           hash: "",
@@ -35,9 +39,29 @@ export const navigation: NavigationSettings = {
       key: "navProgram",
       items: [
         {
-          key: "navCfp",
-          path: "/cfp",
-          hash: "#cfp",
+          key: "navImportantDates",
+          path: "/programs/important-dates",
+        },
+        {
+          key: "navExhibitions",
+          path: "/exhibition",
+        },
+      ],
+    },
+    {
+      key: "navCfp",
+      path: "/cfp",
+    },
+    {
+      key: "navSponsorship",
+      items: [
+        {
+          key: "navSponsors",
+          path: "/sponsors/our-sponsors",
+        },
+        {
+          key: "navBecomeSponsor",
+          path: "/sponsors/become-a-sponsor",
         },
       ],
     },
@@ -47,12 +71,10 @@ export const navigation: NavigationSettings = {
         {
           key: "navTravelGrant",
           path: "/venue-and-travel/travel-grant",
-          hash: "",
         },
         {
           key: "navVisas",
           path: "/venue-and-travel/visas-and-other-travel-requirements",
-          hash: "",
         },
       ],
     },

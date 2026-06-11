@@ -1,82 +1,43 @@
 ---
 import Navigation from "./Navigation.astro";
-import { getHeroCtas, getSiteMetadata } from "../config/site";
+import MainBanner from "./MainBanner.astro";
 import { getLocalizedPath, useTranslations } from "../i18n/ui";
-import HeroImage from "../assets/uca25photo.png";
 import BoothImage from "../assets/booth.jpg";
+import HeroImage from "../assets/uca25photo.png";
 import PrimesessionImage from "../assets/primesession.jpg";
 import SpeakerImage from "../assets/speaker.jpg";
+import Sponsors from "./Sponsors.astro";
 const { locale } = Astro.props;
 const t = useTranslations(locale) as (key: string) => string;
-const metadata = getSiteMetadata(locale);
-const heroCtas = getHeroCtas(locale);
 ---
 
 <main>
     <Navigation locale={locale} />
-
-    <section class="p-section--hero p-strip is-dark">
-        <div class="row--50-50-on-large">
-            <div class="col">
-                <h1 class="u-no-margin--bottom">
-                    {metadata.title}<br />
-                    {metadata.subtitle}
-                </h1>
-                <p class="p-heading--2">
-                    {metadata.date}
-                </p>
-                <p class="p-heading--2">
-                    {metadata.venue}
-                </p>
-            </div>
-            <div class="col">
-                <div class="p-section--shallow">
-                    <p>
-                        {t("heroDescriptionPrimary")}
-                    </p>
-                    <p>
-                        {t("heroDescriptionSecondary")}
-                    </p>
-                </div>
-
-                <div class="p-section--shallow">
-                    <div class="p-cta-block u-no-padding--bottom">
-                        {
-                            heroCtas.map((cta, index) => (
-                                <a class="p-button--positive" href={cta.href}>
-                                    {cta.label}
-                                </a>
-                            ))
-                        }
-                    </div>
-                </div>
-            </div>
-            <div>
+    <MainBanner locale={locale} />
+    <div class="p-section p-strip--dark" id="3-columns-responsive">
+        <div class="u-fixed-width">
+            <div class="p-section--shallow">
                 <div class="p-image-container--cinematic is-cover">
                     <img
                         class="p-image-container__image"
                         src={HeroImage.src}
-                        alt="alt-text"
+                        alt="Ubucon Asia 2025"
                     />
                 </div>
             </div>
-        </div>
-    </section>
-    <div class="p-section p-strip is-dark" id="3-columns-responsive">
-        <hr class="p-rule is-fixed-width" />
-        <div class="p-section--shallow">
-            <div class="grid-row--50-50-on-large">
-                <div class="grid-col">
-                    <h2>{t("contributeTitle")}</h2>
-                </div>
-                <div class="grid-col">
-                    <p class="p-heading--5">
-                        {t("contributeDescription")}
-                    </p>
+            <hr class="p-rule is-fixed-width" />
+            <div class="p-section--shallow">
+                <div class="grid-row--50-50-on-large">
+                    <div class="grid-col">
+                        <h2>{t("contributeTitle")}</h2>
+                    </div>
+                    <div class="grid-col">
+                        <p class="p-heading--5">
+                            {t("contributeDescription")}
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-
         <div class="grid-row">
             <div class="grid-col-6 grid-col-start-large-3">
                 <div class="p-equal-height-row--wrap">
@@ -179,4 +140,5 @@ const heroCtas = getHeroCtas(locale);
             </div>
         </div>
     </div>
+    <Sponsors locale={locale} />
 </main>
