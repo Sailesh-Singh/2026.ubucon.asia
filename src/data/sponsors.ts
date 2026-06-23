@@ -1,5 +1,27 @@
 import logoPlaceHolder from "../assets/sponsors/logo_placeholder.svg";
-export const sponsors = [
+import ima from "../assets/sponsors/Gold/IMA.png";
+
+//Sponsor data structure and types
+export type SponsorItem = {
+  name?: string;
+  nameKey?: string;
+  partnerTag?: string;
+  description?: string;
+  descriptionKey?: string;
+  logoUrl: string;
+  url: string;
+};
+
+export type SponsorLevel = {
+  sponsorLevelName: string;
+  sizeOnLargeScreen: number;
+  sizeOnMediumScreen: number;
+  sizeOnSmallScreen: number;
+  showPopup: boolean;
+  list: SponsorItem[];
+};
+
+export const sponsors: SponsorLevel[] = [
   {
     sponsorLevelName: "Titanium",
     sizeOnLargeScreen: 6,
@@ -41,12 +63,20 @@ export const sponsors = [
     list: [
       // {
       //   name: "Become a sponsor!",
+      //   nameKey: "gsponsorTitle[Demo]",
       //   partnerTag: "-Demo Partner",
       //   logoUrl: logoPlaceHolder.src,
       //   url: "/sponsors/become-a-sponsor",
+      //   descriptionKey: "gsponsordescription[Demo]",
       //   description:
       //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
       // },
+      {
+        nameKey: "gsponsorTitleIMA",
+        logoUrl: ima.src,
+        url: "https://ima.org/",
+        descriptionKey: "gsponsordescriptionIMA",
+      }
     ],
   },
   {
