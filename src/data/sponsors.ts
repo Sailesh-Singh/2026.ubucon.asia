@@ -1,5 +1,8 @@
 import logoPlaceHolder from "../assets/sponsors/logo_placeholder.svg";
 import ima from "../assets/sponsors/Gold/IMA.png";
+import qnap from "../assets/sponsors/Silver/QNAP.png";
+import kktix from "../assets/sponsors/Bronze/KKTIX.png"
+import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.png"
 
 //Sponsor data structure and types
 export type SponsorItem = {
@@ -93,6 +96,14 @@ export const sponsors: SponsorLevel[] = [
       //   description:
       //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
       // },
+      {
+        name: "QNAP Systems, Inc.",
+        logoUrl: qnap.src,
+        url: "https://www.qnap.com/zh-tw",
+        description:
+          "",
+      },
+    
     ],
   },
 
@@ -109,7 +120,21 @@ export const sponsors: SponsorLevel[] = [
   //     //   url: "/sponsors/become-a-sponsor",
   //     //   description:
   //     //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-  //     // },
+      // },
+        {
+        name: "KKTIX",
+        logoUrl: kktix.src,
+        url: "https://www.kktix.com/",
+        description:
+          "",
+      },
+              {
+        name: "ONLYOFFICE",
+        logoUrl: onlyoffice.src,
+        url: "https://www.onlyoffice.com/",
+        description:
+          "",
+      },
     ],
   },
   // {
