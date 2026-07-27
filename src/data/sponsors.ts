@@ -121,6 +121,12 @@ export const sponsors: SponsorLevel[] = [
         url: "https://www.berry-ai.com/",
         descriptionKey: "gsponsordescriptionBerryAI",
       },
+      {
+        nameKey: "gsponsorTitleNitra",
+        logoUrl: logoPlaceHolder.src,
+        url: "https://nitra.com/",
+        descriptionKey: "gsponsordescriptionNitra",
+      },
     ],
   },
   // {
