@@ -3,6 +3,7 @@ import canonical from "../assets/sponsors/Diamond/Canonical-UbuntuLight-Digital.
 import ima from "../assets/sponsors/Gold/IMA.jpg";
 import esun from "../assets/sponsors/Gold/esunbank.jpg";
 import cfh from "../assets/sponsors/Gold/cfh.jpg";
+import mysql from "../assets/sponsors/Gold/MySQL.jpg";
 import qnap from "../assets/sponsors/Bronze/QNAP.jpg";
 import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
@@ -106,6 +107,12 @@ export const sponsors: SponsorLevel[] = [
         logoUrl: cfh.src,
         url: "https://www.cathayholdings.com/holdings/brand/fintech",
         descriptionKey: "gsponsordescriptionCFH",
+      },
+      {
+        nameKey: "gsponsorTitleMySQL",
+        logoUrl: mysql.src,
+        url: "https://www.mysql.com/",
+        descriptionKey: "gsponsordescriptionMySQL",
       },
     ],
   },
