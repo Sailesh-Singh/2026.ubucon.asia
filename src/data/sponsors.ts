@@ -1,4 +1,5 @@
 import logoPlaceHolder from "../assets/sponsors/logo_placeholder.svg";
+import canonical from "../assets/sponsors/Diamond/Canonical-UbuntuLight-Digital.jpg";
 import ima from "../assets/sponsors/Gold/IMA.jpg";
 import esun from "../assets/sponsors/Gold/esunbank.jpg";
 import cfh from "../assets/sponsors/Gold/cfh.jpg";
@@ -46,22 +47,31 @@ export const sponsors: SponsorLevel[] = [
   //     // },
   //   ],
   // },
-  // {
-  //   sponsorLevelName: "Diamond",
-  //   sizeOnLargeScreen: 5,
-  //   sizeOnMediumScreen: 5,
-  //   sizeOnSmallScreen: 4,
-  //   showPopup: true,
-  //   list: [
-  //     // {
-  //     //   name: "Become a sponsor!",
-  //     //   logoUrl: logoPlaceHolder.src,
-  //     //   url: "/sponsors/become-a-sponsor",
-  //     //   description:
-  //     //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-  //     // },
-  //   ],
-  // },
+  {
+    sponsorLevelName: "Diamond",
+    sizeOnLargeScreen: 5,
+    sizeOnMediumScreen: 5,
+    sizeOnSmallScreen: 4,
+    showPopup: true,
+    list: [
+            // {
+      //   name: "Become a sponsor!",
+      //   nameKey: "dsponsorTitle[Demo]",
+      //   partnerTag: "-Demo Partner",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   descriptionKey: "dsponsordescription[Demo]",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
+      {
+        nameKey: "dsponsorTitleCanonical",
+        logoUrl: canonical.src,
+        url: "https://canonical.com/",
+        descriptionKey: "dsponsorDescriptionCanonical",
+      },     
+    ],
+  },
   {
     sponsorLevelName: "Gold",
     sizeOnLargeScreen: 3,
