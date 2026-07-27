@@ -4,6 +4,7 @@ import ima from "../assets/sponsors/Gold/IMA.jpg";
 import esun from "../assets/sponsors/Gold/esunbank.jpg";
 import cfh from "../assets/sponsors/Gold/cfh.jpg";
 import mysql from "../assets/sponsors/Gold/MySQL.jpg";
+import berryai from "../assets/sponsors/Gold/BerryAI.jpg";
 import qnap from "../assets/sponsors/Bronze/QNAP.jpg";
 import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
@@ -113,6 +114,12 @@ export const sponsors: SponsorLevel[] = [
         logoUrl: mysql.src,
         url: "https://www.mysql.com/",
         descriptionKey: "gsponsordescriptionMySQL",
+      },
+      {
+        nameKey: "gsponsorTitleBerryAI",
+        logoUrl: berryai.src,
+        url: "https://www.berry-ai.com/",
+        descriptionKey: "gsponsordescriptionBerryAI",
       },
     ],
   },
