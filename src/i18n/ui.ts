@@ -63,6 +63,8 @@ export const ui = {
     sponsorshipNotice: "Sponsorship details - coming soon.",
     travelNotice: "Travel details - coming soon.",
     // Sponsors Details
+    dsponsorTitleCanonical: "Canonical",
+    dsponsorDescriptionCanonical: "Helping innovators build the future since 2004. Canonical’s story is closely linked to the communities that shape us, including the global community of open source contributors and enthusiasts who are part of our team. Since 2004, we have nurtured a community around Ubuntu, a Linux distribution that leveled the playing field by making software accessible to everyone - whether you are a developer in Calcutta, an end user in Cape Town or a sysadmin in California. Today, we continue to build and grow communities around us, as we help make open source more secure, reliable and manageable at scale. Together, we enable organizations and end users everywhere to innovate with confidence on the largest supported collection of open source software.",
     gsponsorTitleIMA: "Information Management Association",
     gsponsordescriptionIMA: "Founded in 1982, IMA is one of Taiwan's longest-established IT professional organizations, dedicated to strengthening Taiwan's digital competitiveness. IMA remains committed to advancing IT value, fostering cross-sector collaboration, and positioning Taiwan at the forefront of the global digital and AI landscape.",
     gsponsorTitleESunBank: "E.SUN Bank",
@@ -137,6 +139,8 @@ export const ui = {
     sponsorshipNotice: "贊助資訊 - 即將推出。",
     travelNotice: "旅遊資訊 - 即將推出。",
     // Sponsors Details
+    dsponsorTitleCanonical: "Canonical",
+    dsponsorDescriptionCanonical: "自 2004 年以來，我們一直致力於幫助創新者建構未來。 Canonical 的發展歷程與塑造我們成長的各個社群緊密相連，其中包括我們團隊中遍布全球的開源貢獻者和愛好者。自 2004 年以來，我們圍繞著 Ubuntu 培育了一個社群。 Ubuntu 是一款 Linux 發行版，它讓每個人都能輕鬆獲得軟體，從而創造了公平的競爭環境——無論您是加爾各答的開發者、開普敦的終端用戶，還是加州的系統管理員。如今，我們仍在不斷建立和發展我們周圍的社區，致力於讓開源軟體更加安全、可靠且易於大規模管理。我們攜手合作，使世界各地的組織和終端用戶都能在最大的開源軟體支援庫上充滿信心地進行創新。",
     gsponsorTitleIMA: "中華民國資訊經理人協會",
     gsponsordescriptionIMA: "IMA成立於1982年，是台灣歷史最悠久的IT專業組織之一，致力於提升台灣的數位競爭力。 IMA始終致力於提升IT價值，促進跨產業合作，並將台灣定位在全球數位和人工智慧領域的前沿。",
     gsponsorTitleESunBank: "玉山銀行",
@@ -205,6 +209,8 @@ export type UiKey =
   | "ctaSecondaryNotice"
   | "sponsorshipNotice"
   | "travelNotice"
+  | "dsponsorTitleCanonical"
+  | "dsponsorDescriptionCanonical"
   | "gsponsorTitleIMA"
   | "gsponsordescriptionIMA"
   | "gsponsorTitleESunBank"
