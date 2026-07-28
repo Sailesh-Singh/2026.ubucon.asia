@@ -1,10 +1,18 @@
 import logoPlaceHolder from "../assets/sponsors/logo_placeholder.svg";
+import canonical from "../assets/sponsors/Diamond/Canonical-UbuntuLight-Digital.jpg";
 import ima from "../assets/sponsors/Gold/IMA.jpg";
 import esun from "../assets/sponsors/Gold/esunbank.jpg";
 import cfh from "../assets/sponsors/Gold/cfh.jpg";
+import mysql from "../assets/sponsors/Gold/MySQL.jpg";
+import berryai from "../assets/sponsors/Gold/BerryAI.jpg";
+import nitra from "../assets/sponsors/Gold/Nitra.jpg";
+import gamesofa from "../assets/sponsors/Silver/gamesofa.jpg";
+import nchc from "../assets/sponsors/Bronze/NCHC.jpg";
 import qnap from "../assets/sponsors/Bronze/QNAP.jpg";
+import arf from "../assets/sponsors/Bronze/ARF.jpg";
 import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
+import sunsquare from "../assets/sponsors/Bronze/SunSquare.jpg";
 import andes from "../assets/sponsors/Supporter/Andes.jpg";
 import doit from "../assets/sponsors/SpecialThanks/doit.jpg";
 import sifive from "../assets/sponsors/SpecialThanks/sifive.jpg";
@@ -46,22 +54,31 @@ export const sponsors: SponsorLevel[] = [
   //     // },
   //   ],
   // },
-  // {
-  //   sponsorLevelName: "Diamond",
-  //   sizeOnLargeScreen: 5,
-  //   sizeOnMediumScreen: 5,
-  //   sizeOnSmallScreen: 4,
-  //   showPopup: true,
-  //   list: [
-  //     // {
-  //     //   name: "Become a sponsor!",
-  //     //   logoUrl: logoPlaceHolder.src,
-  //     //   url: "/sponsors/become-a-sponsor",
-  //     //   description:
-  //     //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-  //     // },
-  //   ],
-  // },
+  {
+    sponsorLevelName: "Diamond",
+    sizeOnLargeScreen: 5,
+    sizeOnMediumScreen: 5,
+    sizeOnSmallScreen: 4,
+    showPopup: true,
+    list: [
+            // {
+      //   name: "Become a sponsor!",
+      //   nameKey: "dsponsorTitle[Demo]",
+      //   partnerTag: "-Demo Partner",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   descriptionKey: "dsponsordescription[Demo]",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
+      {
+        nameKey: "dsponsorTitleCanonical",
+        logoUrl: canonical.src,
+        url: "https://canonical.com/",
+        descriptionKey: "dsponsorDescriptionCanonical",
+      },     
+    ],
+  },
   {
     sponsorLevelName: "Gold",
     sizeOnLargeScreen: 3,
@@ -97,24 +114,48 @@ export const sponsors: SponsorLevel[] = [
         url: "https://www.cathayholdings.com/holdings/brand/fintech",
         descriptionKey: "gsponsordescriptionCFH",
       },
+      {
+        nameKey: "gsponsorTitleMySQL",
+        logoUrl: mysql.src,
+        url: "https://www.mysql.com/",
+        descriptionKey: "gsponsordescriptionMySQL",
+      },
+      {
+        nameKey: "gsponsorTitleBerryAI",
+        logoUrl: berryai.src,
+        url: "https://www.berry-ai.com/",
+        descriptionKey: "gsponsordescriptionBerryAI",
+      },
+      {
+        nameKey: "gsponsorTitleNitra",
+        logoUrl: nitra.src,
+        url: "https://www.nitra.com/",
+        descriptionKey: "gsponsordescriptionNitra",
+      },
     ],
   },
-  // {
-  //   sponsorLevelName: "Silver",
-  //   sizeOnLargeScreen: 3,
-  //   sizeOnMediumScreen: 3,
-  //   sizeOnSmallScreen: 2,
-  //   showPopup: true,
-  //   list: [
-  //     // {
-  //     //   name: "Become a sponsor!",
-  //     //   logoUrl: logoPlaceHolder.src,
-  //     //   url: "/sponsors/become-a-sponsor",
-  //     //   description:
-  //     //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-  //     // }, 
-  //   ],
-  // },
+  {
+    sponsorLevelName: "Silver",
+    sizeOnLargeScreen: 3,
+    sizeOnMediumScreen: 3,
+    sizeOnSmallScreen: 2,
+    showPopup: true,
+    list: [
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // }, 
+      {
+        nameKey: "ssponsorTitleGamesofa",
+        logoUrl: gamesofa.src,
+        url: "https://www.gamesofa.com/",
+        descriptionKey: "ssponsordescriptionGamesofa",
+      },
+    ],
+  },
 
   {
     sponsorLevelName: "Bronze",
@@ -130,6 +171,12 @@ export const sponsors: SponsorLevel[] = [
         descriptionKey: "bsponsorDescriptionKKTIX",
       },
       {
+        nameKey: "bsponsorTitleNchc",
+        logoUrl: nchc.src,
+        url: "https://www.nchc.org.tw",
+        descriptionKey: "bsponsorDescriptionNchc",
+      },
+      {
         nameKey: "bsponsorTitleONLYOFFICE",
         logoUrl: onlyoffice.src,
         url: "https://www.onlyoffice.com/",
@@ -140,6 +187,18 @@ export const sponsors: SponsorLevel[] = [
         logoUrl: qnap.src,
         url: "https://www.qnap.com/zh-tw",
         descriptionKey: "bsponsorDescriptionQNAP",
+      },
+      {
+        nameKey: "bsponsorTitleARF",
+        logoUrl: arf.src,
+        url: "https://www.archilife.org/",
+        descriptionKey: "bsponsorDescriptionARF",
+      },
+      {
+        nameKey: "bsponsorTitleSunSquare",
+        logoUrl: sunsquare.src,
+        url: "https://sunsquare.tech/",
+        descriptionKey: "bsponsorDescriptionSunSquare",
       },
     ],
   },
