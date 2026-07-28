@@ -81,6 +81,8 @@ export const ui = {
     ssponsordescriptionGamesofa: "Founded in 2005, Gamesofa is a leading Taiwanese game developer powered by top-tier core web technologies. We’ve self-developed and operated over 30 multiplayer games across web, iOS, and Android platforms. Living by our motto, 'Fun in Five Minutes,' we successfully launched Taiwan’s #1 online Mahjong game, GodGame Mahjong. We're also capturing hearts across Indonesia, Singapore, Malaysia, and North America with Texas Hold’em, local card games, and our casual simulation hit, Catfe World. With over 75 million registered users worldwide and 2 million+ daily active users, our community keeps growing! We don't just innovate; we run on data. By leveraging advanced data analytics and predictive models, our development, operations, and marketing teams can instantly read the game environment and pivot strategies. At Gamesofa, we combine passion with high-efficiency execution.",
     bsponsorTitleKKTIX: "KKTIX",
     bsponsorDescriptionKKTIX: "As Taiwan and Hong Kong’s leading platform for event ticketing, registration,and live streaming, KKTIX is dedicated to empowering organizers with reliable technology and seamless event experiences. From technical conferences, open-source community meetups, and educational programs to large-scale forums, live performances, and online events, KKTIX supports events of all sizes and formats. Since its founding in 2010, KKTIX has amassed more than 7 million registered members and proudly supports over 75,000 events annually. The platform provides comprehensive solutions—including event registration, ticketing, payment processing, membership management, and data analytics—enabling organizers to focus on curating impactful content and fostering vibrant communities. KKTIX has a long-standing commitment to driving the growth of technology and open-source communities, partnering with developer ecosystems, user groups, and non-profit organizations to bring people together. We believe that every event serves as a catalyst for knowledge sharing and community building, and that the right tools empower people to focus on learning, collaboration, and creating lasting value.",
+    bsponsorTitleNchc: "National Center for High-performance Computing",
+    bsponsorDescriptionNchc: 'National Center for High-performance Computing (NCHC), founded in 1991,is committed to strengthening national high-performance computing (HPC)technology, providing world-class supercomputing and academic researchnetwork infrastructure, and laying foundation for the development oftechnology in Taiwan. NCHC, in the spirit of "driving transformation for a better future with HPC", is dedicated to promoting HPC technology andapplications development, leading digital transformation in industriesand smart living.',
     bsponsorTitleONLYOFFICE: "ONLYOFFICE",
     bsponsorDescriptionONLYOFFICE: "ONLYOFFICE, an open-source office software project, focuses on advanced and secure office solutions. With over 15 million users worldwide, it is recognized for its innovation in the online office domain. The ONLYOFFICE ecosystem includes collaborative applications such as online editors for text documents, spreadsheets, presentations, forms, and PDFs, along with a room-based collaborative platform. As an international company, ONLYOFFICE has employees and contributors across the globe, with offices located in Singapore, Dallas, Shanghai, Riga, London, Belgrade, Yerevan, and Tashkent.",
     bsponsorTitleQNAP: "QNAP Systems, Inc.",
@@ -165,6 +167,8 @@ export const ui = {
     ssponsordescriptionGamesofa: "慧邦科技Gamesofa成立於2005年，透過優異的網路核心技術，自製研發並行銷營運30餘款web, iOS, Android多人遊戲，是台灣首屈一指的遊戲開發公司。Gamesofa以「5分鐘．想樂最輕鬆」為核心理念，成功打造台灣第一大網路麻將遊戲【神來也麻將】並在印尼、越南、星馬、美加推出德州撲克與當地牌類 及模擬休閒遊戲【貓咪造咖】，全球累積註冊用戶數超過7,500萬，每日活躍用戶超過200萬人。Gamesofa除了在遊戲開發力求創新，更擅長以資料分析 驅動營運決策，讓產品開發、營運、行銷團隊皆能透過數據分析工具與預測模型，快速掌握遊戲狀況，擬定策略，是一間充滿熱情與效率的企業。",
     bsponsorTitleKKTIX: "華娛網路娛樂股份有限公司",
     bsponsorDescriptionKKTIX: "KKTIX作為台港兩地領先的活動售票、報名與線上直播平台，致力於透過穩定 可靠的技術服務，協助主辦單位打造更好的活動體驗。從技術研討會、開源社 群聚會、教育課程到大型論壇、展演活動與線上直播，KKTIX支援各種規模的 活動需求。自2010年成立以來，KKTIX已累積超過700萬名會員，每年服務超過75,000場 活動。平台提供報名管理、售票、金流、會員經營、數據分析等全方位方案，讓主辦單位能專注於內容與社群經營！KKTIX長期支持技術與開源社群發展，陪伴許多開發者社群、使用者社群及非 營利組織舉辦活動。我們相信，每一場活動都是知識交流與社群連結的起點，而好的工具能讓更多人專注於分享、學習與創造價值。",
+    bsponsorTitleNchc: "財團法人國家實驗研究院國家高速網路與計算中心",
+    bsponsorDescriptionNchc: '財團法人國家實驗研究院國家高速網路與計算中心（簡稱國網中心），於1991年成立，致力扎根國內高速計算技術，提供世界級的高速計算與學研網路設施，為台灣的科技能量奠基。我們秉持著「驅動轉型，為更美好的未來而努力」的信念，積極推動高速計算的技術與應用發展，引領數位轉型並促進智慧生活的改變。',
     bsponsorTitleONLYOFFICE: "ONLYOFFICE",
     bsponsorDescriptionONLYOFFICE: "ONLYOFFICE 是一個國際性的開源專案，由領先的 IT 公司 Ascensio System SIA 開發。目前在中國、新加坡、英國等 7 個國家設有分公司，為全球企業與個人使用者提供高效率的文件處理與協作解決方案，深受網易、百威中國、中信集團、南京大學、中國知網等眾多企業與教育機構的青睞。ONLYOFFICE Docs 是一套功能完整的線上辦公套件，整合了文件編輯、試算表、簡報、可填寫表單以及 PDF 編輯器，並與 Microsoft Office 格式具備高度相容性。此外，還提供數百種格式與樣式設定工具，以及多元的協作功能。",
     bsponsorTitleQNAP: "威聯通科技股份有限公司",
@@ -243,6 +247,8 @@ export type UiKey =
   | "ssponsordescriptionGamesofa"
   | "bsponsorTitleKKTIX"
   | "bsponsorDescriptionKKTIX"
+  | "bsponsorTitleNchc"
+  | "bsponsorDescriptionNchc"
   | "bsponsorTitleONLYOFFICE"
   | "bsponsorDescriptionONLYOFFICE"
   | "bsponsorTitleQNAP"
