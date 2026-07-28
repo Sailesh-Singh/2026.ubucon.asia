@@ -5,6 +5,9 @@ import esun from "../assets/sponsors/Gold/esunbank.jpg";
 import cfh from "../assets/sponsors/Gold/cfh.jpg";
 import mysql from "../assets/sponsors/Gold/MySQL.jpg";
 import berryai from "../assets/sponsors/Gold/BerryAI.jpg";
+import nitra from "../assets/sponsors/Gold/Nitra.jpg";
+import gamesofa from "../assets/sponsors/Silver/gamesofa.jpg";
+import nchc from "../assets/sponsors/Bronze/NCHC.jpg";
 import qnap from "../assets/sponsors/Bronze/QNAP.jpg";
 import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
@@ -123,28 +126,34 @@ export const sponsors: SponsorLevel[] = [
       },
       {
         nameKey: "gsponsorTitleNitra",
-        logoUrl: logoPlaceHolder.src,
-        url: "https://nitra.com/",
+        logoUrl: nitra.src,
+        url: "https://www.nitra.com/",
         descriptionKey: "gsponsordescriptionNitra",
       },
     ],
   },
-  // {
-  //   sponsorLevelName: "Silver",
-  //   sizeOnLargeScreen: 3,
-  //   sizeOnMediumScreen: 3,
-  //   sizeOnSmallScreen: 2,
-  //   showPopup: true,
-  //   list: [
-  //     // {
-  //     //   name: "Become a sponsor!",
-  //     //   logoUrl: logoPlaceHolder.src,
-  //     //   url: "/sponsors/become-a-sponsor",
-  //     //   description:
-  //     //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-  //     // }, 
-  //   ],
-  // },
+  {
+    sponsorLevelName: "Silver",
+    sizeOnLargeScreen: 3,
+    sizeOnMediumScreen: 3,
+    sizeOnSmallScreen: 2,
+    showPopup: true,
+    list: [
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // }, 
+      {
+        nameKey: "ssponsorTitleGamesofa",
+        logoUrl: gamesofa.src,
+        url: "https://www.gamesofa.com/",
+        descriptionKey: "ssponsordescriptionGamesofa",
+      },
+    ],
+  },
 
   {
     sponsorLevelName: "Bronze",
@@ -158,6 +167,12 @@ export const sponsors: SponsorLevel[] = [
         logoUrl: kktix.src,
         url: "https://www.kktix.com/",
         descriptionKey: "bsponsorDescriptionKKTIX",
+      },
+      {
+        nameKey: "bsponsorTitleNchc",
+        logoUrl: nchc.src,
+        url: "https://www.nchc.org.tw",
+        descriptionKey: "bsponsorDescriptionNchc",
       },
       {
         nameKey: "bsponsorTitleONLYOFFICE",
