@@ -9,6 +9,7 @@ import nitra from "../assets/sponsors/Gold/Nitra.jpg";
 import gamesofa from "../assets/sponsors/Silver/gamesofa.jpg";
 import nchc from "../assets/sponsors/Bronze/NCHC.jpg";
 import qnap from "../assets/sponsors/Bronze/QNAP.jpg";
+import arf from "../assets/sponsors/Bronze/ARF.jpg";
 import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
 import andes from "../assets/sponsors/Supporter/Andes.jpg";
@@ -185,6 +186,12 @@ export const sponsors: SponsorLevel[] = [
         logoUrl: qnap.src,
         url: "https://www.qnap.com/zh-tw",
         descriptionKey: "bsponsorDescriptionQNAP",
+      },
+      {
+        nameKey: "bsponsorTitleARF",
+        logoUrl: arf.src,
+        url: "https://www.archilife.org/",
+        descriptionKey: "bsponsorDescriptionARF",
       },
     ],
   },
