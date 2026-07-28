@@ -12,6 +12,7 @@ import qnap from "../assets/sponsors/Bronze/QNAP.jpg";
 import arf from "../assets/sponsors/Bronze/ARF.jpg";
 import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
+import sunsquare from "../assets/sponsors/Bronze/SunSquare.jpg";
 import andes from "../assets/sponsors/Supporter/Andes.jpg";
 import doit from "../assets/sponsors/SpecialThanks/doit.jpg";
 import sifive from "../assets/sponsors/SpecialThanks/sifive.jpg";
@@ -192,6 +193,12 @@ export const sponsors: SponsorLevel[] = [
         logoUrl: arf.src,
         url: "https://www.archilife.org/",
         descriptionKey: "bsponsorDescriptionARF",
+      },
+      {
+        nameKey: "bsponsorTitleSunSquare",
+        logoUrl: sunsquare.src,
+        url: "https://sunsquare.tech/",
+        descriptionKey: "bsponsorDescriptionSunSquare",
       },
     ],
   },
