@@ -17,6 +17,7 @@ import andes from "../assets/sponsors/Supporter/Andes.jpg";
 import appier from "../assets/sponsors/Supporter/Appier.jpg";
 import doit from "../assets/sponsors/SpecialThanks/doit.jpg";
 import sifive from "../assets/sponsors/SpecialThanks/sifive.jpg";
+import rozetaai from "../assets/sponsors/SpecialThanks/rozetaai.jpg";
 
 //Sponsor data structure and types
 export type SponsorItem = {
@@ -232,18 +233,24 @@ export const sponsors: SponsorLevel[] = [
     showPopup: true,
     list: [
       {
-        name: "Department of Information Technology, Taipei City Government",
+        nameKey: "stsponsorTitleDoit",
         logoUrl: doit.src,
         // partnerTag: "-Demo Partner",
         url: "https://doit.gov.taipei",
-        descriptionKey: "",
+        descriptionKey: "stsponsorDescriptionDoit",
       },
       {
-        name: "SiFive",
+        nameKey: "stsponsorTitleSifive",
         logoUrl: sifive.src,
         // partnerTag: "-Demo Partner",
         url: "https://www.sifive.com",
-        descriptionKey: "",
+        descriptionKey: "stsponsorDescriptionSifive",
+      },
+      {
+        nameKey: "stsponsorTitleRozetaAI",
+        logoUrl: rozetaai.src,
+        url: "https://rozeta.app",
+        descriptionKey: "stsponsorDescriptionRozetaAI",
       },
     ],
   },
