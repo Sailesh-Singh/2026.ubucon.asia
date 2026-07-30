@@ -14,6 +14,7 @@ import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
 import sunsquare from "../assets/sponsors/Bronze/SunSquare.jpg";
 import andes from "../assets/sponsors/Supporter/Andes.jpg";
+import appier from "../assets/sponsors/Supporter/Appier.jpg";
 import doit from "../assets/sponsors/SpecialThanks/doit.jpg";
 import sifive from "../assets/sponsors/SpecialThanks/sifive.jpg";
 
@@ -215,6 +216,12 @@ export const sponsors: SponsorLevel[] = [
         url: "https://www.andestech.com/en/",
         descriptionKey: "supportersponsorDescriptionAndes",
       },
+      {
+        nameKey: "supportersponsorTitleAppier",
+        logoUrl: appier.src,
+        url: "https://www.appier.com/zh-tw/",
+        descriptionKey: "supportersponsorDescriptionAppier",
+      }
     ],
   },
   {
