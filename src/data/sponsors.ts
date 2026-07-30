@@ -14,8 +14,10 @@ import kktix from "../assets/sponsors/Bronze/KKTIX.jpg";
 import onlyoffice from "../assets/sponsors/Bronze/ONLYOFFICE.jpg";
 import sunsquare from "../assets/sponsors/Bronze/SunSquare.jpg";
 import andes from "../assets/sponsors/Supporter/Andes.jpg";
+import appier from "../assets/sponsors/Supporter/Appier.jpg";
 import doit from "../assets/sponsors/SpecialThanks/doit.jpg";
 import sifive from "../assets/sponsors/SpecialThanks/sifive.jpg";
+import rozetaai from "../assets/sponsors/SpecialThanks/rozetaai.jpg";
 
 //Sponsor data structure and types
 export type SponsorItem = {
@@ -215,6 +217,12 @@ export const sponsors: SponsorLevel[] = [
         url: "https://www.andestech.com/en/",
         descriptionKey: "supportersponsorDescriptionAndes",
       },
+      {
+        nameKey: "supportersponsorTitleAppier",
+        logoUrl: appier.src,
+        url: "https://www.appier.com/zh-tw/",
+        descriptionKey: "supportersponsorDescriptionAppier",
+      }
     ],
   },
   {
@@ -225,18 +233,24 @@ export const sponsors: SponsorLevel[] = [
     showPopup: true,
     list: [
       {
-        name: "Department of Information Technology, Taipei City Government",
+        nameKey: "stsponsorTitleDoit",
         logoUrl: doit.src,
         // partnerTag: "-Demo Partner",
         url: "https://doit.gov.taipei",
-        descriptionKey: "",
+        descriptionKey: "stsponsorDescriptionDoit",
       },
       {
-        name: "SiFive",
+        nameKey: "stsponsorTitleSifive",
         logoUrl: sifive.src,
         // partnerTag: "-Demo Partner",
         url: "https://www.sifive.com",
-        descriptionKey: "",
+        descriptionKey: "stsponsorDescriptionSifive",
+      },
+      {
+        nameKey: "stsponsorTitleRozetaAI",
+        logoUrl: rozetaai.src,
+        url: "https://rozeta.app",
+        descriptionKey: "stsponsorDescriptionRozetaAI",
       },
     ],
   },

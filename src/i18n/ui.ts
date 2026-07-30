@@ -93,6 +93,14 @@ export const ui = {
     bsponsorDescriptionSunSquare: "Sun Square Co., Ltd. provides cybersecurity, technical consulting, and industry standard implementation services to help organizations strengthen product security, system security, software supply chain security, and practical compliance capabilities. We have long followed open source governance, SBOM, open source supply chain security, industrial cybersecurity, and practical implementation of industry standards. We also continue to participate in and contribute to open source communities and related engineering practices. We believe open technologies and engineering practices are important foundations for building a trustworthy digital environment. Sun Square welcomes developers, researchers, and technology partners interested in open source, security engineering, SBOM, supply chain security, and industrial cybersecurity to connect, exchange ideas, and collaborate with us.",
     supportersponsorTitleAndes: "Andes Technology Corporation",
     supportersponsorDescriptionAndes: "As a Founding Premier member of RISC-V International and a leader in commercial CPU IP, Andes Technology ([TWSE: 6533](https://finance.yahoo.com/quote/6533.TW?p=6533.TW&ncid=stockrec); [SIN: US03420C2089](https://www.bourse.lu/security/US03420C2089/342557); [ISIN: US03420C1099](https://www.bourse.lu/security/US03420C2089/342557)) is driving the global adoption of RISC-V. Andes’ extensive RISC-V Processor IP portfolio spans from ultra-efficient 32-bit CPUs to high-performance 64-bit Out-of-Order multiprocessor coherent clusters. With advanced vector processing, DSP capabilities, the powerful Andes Automated Custom Extension (ACE) framework, end-to-end AI hardware/software stack, ISO 26262 certification with full compliance, and a robust software ecosystem, Andes unlocks the full potential of RISC-V, empowering customers to accelerate innovation across AI, automotive, communications, consumer electronics, data centers, and mobile devices. Over 20 billion Andes-powered SoCs are driving innovations globally. Discover more at [www.andestech.com](http://www.andestech.com/) and connect with Andes on [LinkedIn](https://www.linkedin.com/company/13688177/admin/dashboard/), [X (formerly Twitter)](https://x.com/Andes_Tech) , [YouTube](https://www.youtube.com/c/AndesTechnology) and [Bilibili](https://space.bilibili.com/335295020).",
+    supportersponsorTitleAppier: "Appier",
+    supportersponsorDescriptionAppier: "Appier (TSE: 4180) is an AI-native Agentic AI as a Service (AaaS) company that empowers businesses to create value through cutting-edge AdTech and MarTech solutions. Founded in 2012 with the vision of “Making AI Easy by Making Software Intelligent,” Appier helps businesses turn AI into ROI through its Ad Cloud, Personalization Cloud, and Data Cloud—each powered by Agentic AI that enables autonomous, adaptive, and real-time decision-making. Today, Appier operates 17 offices across APAC, the US, and EMEA, and is listed on the Tokyo Stock Exchange. Learn more at Appier | Empowering Businesses to Turn AI into ROI .",
+    stsponsorTitleDoit: "Department of Information Technology, Taipei City Government",
+    stsponsorDescriptionDoit:"",
+    stsponsorTitleSifive: "SiFive",
+    stsponsorDescriptionSifive:"",
+    stsponsorTitleRozetaAI: "Rozeta AI",
+    stsponsorDescriptionRozetaAI:"",
   },
   "zh-tw": {
     localeName: "中文",
@@ -183,6 +191,14 @@ export const ui = {
     bsponsorDescriptionSunSquare: "源鋼技術顧問有限公司 Sun Square Co., Ltd. 專注於資安、技術顧問與產業標準導入服務，協助企業強化產品安全、系統安全、軟體供應鏈安全與合規實作能力。我們長期關注開源治理、SBOM、開源供應鏈安全、工控系統資安與產業標準實作，也持續參與並貢獻開源社群與相關技術實務。我們相信開放技術與工程實務是建立可信賴數位環境的重要基礎。源鋼歡迎對開源軟體、安全工程、SBOM、供應鏈安全與工控資安有興趣的開發者、研究者與技術夥伴，一起交流與合作。",
     supportersponsorTitleAndes: "晶心科技股份有限公司",
     supportersponsorDescriptionAndes: "晶心科技股份有限公司于2005年成立於新竹科學園區，2017年於臺灣證交所上市 ([TWSE: 6533](https://finance.yahoo.com/quote/6533.TW?p=6533.TW&ncid=stockrec); [SIN: US03420C2089](https://www.bourse.lu/security/US03420C2089/342557); [ISIN: US03420C1099](https://www.bourse.lu/security/US03420C2089/342557))。晶心是RISC-V國際協會的創始首席會員，也是第一家推出商用RISC-V向量處理器的主流CPU供應商。為滿足當今電子設備的嚴格要求，晶心提供可配置性高的32/64位元高效能CPU核心，包含DSP、FPU、Vector、超純量  (Superscalar)、亂序執行  (Out-of-Order)、多核心及車用系列，可應用於各式ＳｏＣ與應用場景。晶心並提供功能齊全的整合開發環境和全面的軟/硬體解決方案，可幫助客戶在短時間內創新其SoC設計。截至2025年底，Andes-Embedded™ SoC累計出貨量已超過200億顆。欲瞭解更多資訊，請訪問  [https://www.andestech.com](https://www.andestech.com/)。請立即透過[LinkedIn](https://www.linkedin.com/company/13688177/)、[Facebook](https://www.facebook.com/AndesTechTW?locale=zh_TW)、[X(原 Twitter)](https://twitter.com/Andes_Tech)、[YouTube](https://www.youtube.com/c/AndesTechnology/) 以及[Bilibili](https://space.bilibili.com/335295020)追蹤晶心最新消息。",
+    supportersponsorTitleAppier: "沛星互動科技股份有限公司",
+    supportersponsorDescriptionAppier: "Appier 是一家 AI 原生的 Agentic AI 即服務（AaaS）公司，透過最先進的廣告科技（AdTech）與行銷科技（MarTech）解決方案，協助企業制定更明確的商業決策。創立於 2012 年，Appier 秉持 Making AI Easy by Making Software Intelligent 的願景，致力透過旗下由 Agentic AI 驅動的的廣告雲（Ad Cloud）、個人化雲（Personalization Cloud) 及數據雲（Data Cloud）解決方案，賦予企業自主、自適應、即時決策的能力，將 AI 轉化為可衡量的投資報酬（ROI）。Appier 目前在亞太、美國與 EMEA 地區設有 17 個據點，並於東京證券交易所 Prime 板上市。欲了解更多資訊請參閱 Appier | Empowering Businesses to Turn AI into ROI 。",
+    stsponsorTitleDoit: "臺北市政府資訊局",
+    stsponsorDescriptionDoit: "",
+    stsponsorTitleSifive: "美商賽發馥股份有限公司臺灣分公司",
+    stsponsorDescriptionSifive: "",
+    stsponsorTitleRozetaAI: "Rozeta AI",
+    stsponsorDescriptionRozetaAI: "",
   },
 } as const;
 
@@ -266,8 +282,15 @@ export type UiKey =
   | "bsponsorTitleSunSquare"
   | "bsponsorDescriptionSunSquare"
   | "supportersponsorTitleAndes"
-  | "supportersponsorDescriptionAndes";
-
+  | "supportersponsorDescriptionAndes"
+  | "supportersponsorTitleAppier"
+  | "supportersponsorDescriptionAppier"
+  | "stsponsorTitleDoit"
+  | "stsponsorDescriptionDoit"
+  | "stsponsorTitleSifive"
+  | "stsponsorDescriptionSifive"
+  | "stsponsorTitleRozetaAI"
+  | "stsponsorDescriptionRozetaAI";
 export const getLocaleFromUrl = (url: URL): Locale => {
   const pathLocale = url.pathname.split("/")[1];
   if (locales.includes(pathLocale as Locale)) {
