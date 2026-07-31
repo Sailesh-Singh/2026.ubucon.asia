@@ -1,17 +1,26 @@
 ---
 import { sponsors } from "../data/sponsors";
 import { useTranslations, defaultLocale } from "../i18n/ui";
-import SponsorLogoAndModal from "../components/SponsorLogoAndModal.tsx";
+import SponsorCard from "../components/SponsorCard.tsx";
 
 const locale = Astro.props.locale || defaultLocale;
 const t = useTranslations(locale) as (key: string) => string;
 ---
 
 <style>
-  .sponsor-grid {
-
+  /* Logo area scales with the tier's grid span so bigger tiers get taller cards */
+  .sponsor-grid :global(.col-5 .sponsor-card) {
+    min-height: 200px;
   }
-
+  .sponsor-grid :global(.col-3 .sponsor-card) {
+    min-height: 150px;
+  }
+  .sponsor-grid :global(.col-2 .sponsor-card) {
+    min-height: 120px;
+  }
+  .sponsor-grid :global(.col-1 .sponsor-card) {
+    min-height: 100px;
+  }
 </style>
 
 <div class="p-section">
@@ -34,12 +43,13 @@ const t = useTranslations(locale) as (key: string) => string;
                 <div
                   class={`col-${level.sizeOnLargeScreen} col-medium-${level.sizeOnMediumScreen} col-small-${level.sizeOnSmallScreen}`}
                 >
-                  <SponsorLogoAndModal
+                  <SponsorCard
                     name={item.nameKey ? t(item.nameKey) : item.name ?? ""}
                     logoImageSrc={item.logoUrl}
-                    description={item.descriptionKey ? t(item.descriptionKey) : item.descriptionKey ?? ""}
+                    description={item.descriptionKey ? t(item.descriptionKey) : item.description ?? ""}
                     url={item.url}
                     level={level.sponsorLevelName}
+                    tierColor={level.tierColor}
                     partnerTag={item?.partnerTag}
                     showPopup={level.showPopup}
                     client:only="react"

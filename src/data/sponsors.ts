@@ -32,6 +32,7 @@ export type SponsorItem = {
 
 export type SponsorLevel = {
   sponsorLevelName: string;
+  tierColor: string;
   sizeOnLargeScreen: number;
   sizeOnMediumScreen: number;
   sizeOnSmallScreen: number;
@@ -58,6 +59,7 @@ export const sponsors: SponsorLevel[] = [
   // },
   {
     sponsorLevelName: "Diamond",
+    tierColor: "#4FC3F7",
     sizeOnLargeScreen: 5,
     sizeOnMediumScreen: 5,
     sizeOnSmallScreen: 4,
@@ -83,6 +85,7 @@ export const sponsors: SponsorLevel[] = [
   },
   {
     sponsorLevelName: "Gold",
+    tierColor: "#D4A017",
     sizeOnLargeScreen: 3,
     sizeOnMediumScreen: 3,
     sizeOnSmallScreen: 2,
@@ -138,6 +141,7 @@ export const sponsors: SponsorLevel[] = [
   },
   {
     sponsorLevelName: "Silver",
+    tierColor: "#9E9E9E",
     sizeOnLargeScreen: 3,
     sizeOnMediumScreen: 3,
     sizeOnSmallScreen: 2,
@@ -161,9 +165,10 @@ export const sponsors: SponsorLevel[] = [
 
   {
     sponsorLevelName: "Bronze",
+    tierColor: "#A9744F",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
-    sizeOnSmallScreen: 1,
+    sizeOnSmallScreen: 2,
     showPopup: true,
     list: [
       {
@@ -206,9 +211,10 @@ export const sponsors: SponsorLevel[] = [
   },
   {
     sponsorLevelName: "Supporter",
+    tierColor: "#2E8B8B",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
-    sizeOnSmallScreen: 1,
+    sizeOnSmallScreen: 2,
     showPopup: true,
     list: [
       {
@@ -227,9 +233,10 @@ export const sponsors: SponsorLevel[] = [
   },
   {
     sponsorLevelName: "Special Thanks",
-    sizeOnLargeScreen: 1,
-    sizeOnMediumScreen: 1,
-    sizeOnSmallScreen: 1,
+    tierColor: "#7E57C2",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 2,
     showPopup: true,
     list: [
       {
