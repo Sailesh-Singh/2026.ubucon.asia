@@ -8,7 +8,7 @@ import rishiImg from "../assets/speakers/rishi.png";
 import ronitImg from "../assets/speakers/ronit.png";
 import bikalpaImg from "../assets/speakers/bikalpa.png";
 import venkateshImg from "../assets/speakers/venkatesh.png";
-import saileshImg from "../assets/speakers/sailesh.png";
+import saileshImg from "../assets/speakers/sailesh.jpg";
 import youngbinImg from "../assets/speakers/youngbin.png";
 import rudraImg from "../assets/speakers/rudra.png";
 import aryanImg from "../assets/speakers/aryan.png";
